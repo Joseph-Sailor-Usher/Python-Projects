@@ -1,4 +1,5 @@
 from games.game_interface import GameInterface
+from games.utility_functions import validated_input
 import random
 
 # Define the class with GameInterface as the base class
@@ -6,20 +7,26 @@ class MadLibs(GameInterface):
     def __init__(self):
         # Initialize word lists and templates
         self.nouns = ['dog', 'car', 'robot', 'ice cream']
-        self.verbs = ['run', 'hit', 'jump', 'drive']
+        self.verbs = ['jump', 'swing', 'romp', 'pilot']
         self.adjectives = ['blue', 'strange', 'happy', 'fast']
         self.adverbs = ['quickly', 'mysteriously', 'joyfully', 'silently']
         self.templates = [
             "The {adjective} {noun} {adverb} {verb}s.",
-            "When you {verb} the {noun}, it {adverb} becomes {adjective}."
+            "When you {verb} the {noun}, it {adverb} becomes {adjective}.",
+            "The {noun} has {verb}ed."
         ]
 
     def run(self):
-        # Get user inputs if necessary or use random words
-        user_defined = self.get_user_inputs()
-        # Generate a Mad Lib
-        mad_lib = self.create_mad_lib(random.choice(self.templates), user_defined)
-        print(mad_lib)
+        play_again = "y"
+        while(play_again is "y"):
+            # Get user inputs if necessary or use random words
+            user_defined = self.get_user_inputs()
+            # Generate a Mad Lib
+            mad_lib = self.create_mad_lib(random.choice(self.templates), user_defined)
+            print()
+            print(mad_lib)
+            print("Enter 'y' to create another, or 'q' to quit.")
+            play_again = validated_input(["y", "q"])
 
     def get_name(self):
         # Return the name of the game
