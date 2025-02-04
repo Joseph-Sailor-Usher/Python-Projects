@@ -1,4 +1,7 @@
 def validated_input(valid_options: list) -> str:
+    if not isinstance(valid_options, list):
+        raise TypeError("valid_options must be a list")
+    
     message = "Enter:"
     for s in valid_options:
         message += f" {s}"

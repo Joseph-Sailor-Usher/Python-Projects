@@ -23,7 +23,7 @@ def main():
             print(f"{key}: {name}")
         print("Q: Quit")
 
-        choice = input("Select a game to play or 'Q' to quit: ").strip().upper()
+        choice = input("Select a game to play or 'q' to quit: ").strip().upper()
         if choice == 'Q':
             break
         elif choice in games:
