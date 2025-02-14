@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language Features/Collections.md",
+                "file": "Language Features/Built-in Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Collections"
+              "title": "Built-in Functions"
+            }
+          },
+          {
+            "id": "a2d53978acc57185",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +53,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -93,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language Features/Collections.md",
+                "file": "Language Features/Built-in Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Collections"
+              "title": "Backlinks for Built-in Functions"
             }
           },
           {
@@ -112,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language Features/Collections.md",
+                "file": "Language Features/Built-in Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Collections"
+              "title": "Outgoing links from Built-in Functions"
             }
           },
           {
@@ -139,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language Features/Collections.md"
+                "file": "Language Features/Built-in Functions.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Collections"
+              "title": "Outline of Built-in Functions"
             }
           }
         ]
@@ -162,12 +176,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2182f28260f4b94b",
+  "active": "a2d53978acc57185",
   "lastOpenFiles": [
+    "Language Features/Collections.md",
     "Language Features/Built-in Functions.md",
     "Python.md",
     "Development Info/venv.md",
-    "Language Features/Collections.md",
     "Language Features/String Concatenation.md",
     "Development Info/pip.md",
     "Language Features/String Concatenation",

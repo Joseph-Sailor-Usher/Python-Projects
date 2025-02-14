@@ -29,6 +29,9 @@ Python includes a variety of built-in functions that are always available for ef
 
 #### I
 - **`int(x=0)`**: Converts a number or string x to an integer, or return 0 if no arguments are given.
+- **`isinstance(object, classinfo)`**: Checks if the given `object` is an instance of the specified `classinfo`.
+	- Returns `True` if the object is an instance or subclass of `classinfo`, otherwise `False`. 
+	- If `classinfo` is a tuple of types, `isinstance` checks if the object matches any of them.
 
 #### L
 - **`len(s)`**: Returns the length (the number of items) of an object. The argument may be a sequence (such as a string, bytes, tuple, list, or range) or a collection (such as a dictionary, set, or frozen set).
